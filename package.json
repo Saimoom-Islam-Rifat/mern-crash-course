@@ -1,0 +1,27 @@
+{
+  "name": "mern-crash-course",
+  "version": "1.0.0",
+  "description": "A MERN stack project to learn full stack web development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch --watch-preserve-output backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saimoom-Islam-Rifat/mern-crash-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Saimoom-Islam-Rifat/mern-crash-course/issues"
+  },
+  "homepage": "https://github.com/Saimoom-Islam-Rifat/mern-crash-course#readme",
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.6"
+  }
+}
